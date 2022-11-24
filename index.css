@@ -1,0 +1,53 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+    -webkit-text-stroke: .5px black;
+    color:#ffd467;
+    font-weight: 100;
+    text-align: center;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          #051821 0%, 
+          #1a4645 25%, 
+          #266867 51%, 
+          #f58800 100%
+    );  
+    animation: AnimateBG 12s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+
+.boton, .boton:visited{
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-text-stroke: 0px;
+    text-decoration: none;
+    color:#1a4645;
+    transition: .2s ease-in;
+    font-size: 16px;
+}
+
+.boton:hover{
+  background-color: #051821;
+  color: #fff;
+  font-size: 18px;
+}
+
+.boton:active{
+  background-color: #1a4645;
+  color: #ffffff;
+}

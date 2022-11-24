@@ -1,0 +1,96 @@
+body{
+    background-color: #051821;
+    color: white;
+}
+
+header{
+    background: rgb(26,70,69);
+    background: linear-gradient(0deg, rgba(26,70,69,1) 0%, rgba(245,136,0,1) 100%);
+}
+
+h1, h2{
+    font-family: 'Alfa Slab One', cursive;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    display: block;
+    background-color:rgb(26,70,69);
+    padding: .5%;
+    margin-top: 3%;
+}
+
+#pheader{
+    font-family: 'Comic Neue', cursive;
+    color:rgb(255, 255, 255);
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: .5%;
+}
+
+#botones{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+a, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: rgb(231, 227, 160);
+    font-family: cursive;
+}
+
+.boton{
+    padding: .6%;
+    background-color: #f58800;
+    border-radius: 10%;
+    margin: .5%;
+    font-size: 16px;
+    transition:.2s ease-in;
+}
+
+.boton:hover{
+    font-size: 19px;
+    background-color: #f8bc24;
+    color: #051821;
+}
+
+.ap{
+    display: flex;
+    justify-content: space-around
+}
+
+.tarjeta{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(248,188,36,1) 100%);
+    width: 30%;
+    color: #051821;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.dark-a, .dark-a:visited{
+    color: #1a4645;
+    font-size: 16px;
+    transition:.2s ease-in;
+}
+
+.dark-a:hover{
+    color: #1a4645;
+    font-size: 18px;
+}
+
+img{
+    width: 60%;
+    border-radius: 10%;
+}
+
